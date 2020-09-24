@@ -1,0 +1,21 @@
+cmd-> django-admin startproject mysqlcrudprj
+
+terminal -> python manage.py startapp mysqlcrudapp
+
+created mysql db pythoncrudtut
+
+change database in project setings.py
+
+installed mysqlclient from binaries
+
+TILL 25:55 -> created forms.py and ready to migrate
+
+Add your app in INSTALLED_APPS settings.py project
+
+Migrations ->
+    python manage.py makemigrations
+    python manage.py migrate
+
+created static and templates folder in app folder
+
+TILL 54:00
